@@ -1,35 +1,32 @@
 body{
+    
     background-color: var(--bs-dark);
     font:1rem/1.5 var(--bs-font-sans-serif);
     color: var(--bs-white);
 }
-
-.style-m1{
-    padding-top: 2rem;
-    margin-left: 8rem;
+.style-m2{ 
+    flex-grow: 0;   
 }
-.style-m2{
-    flex-basis: 0; 
-    flex-grow: 0;
-    margin-right: 3rem;
+.navbar-brand {
+    padding-left: 65px;
 }
 header{
-    text-align: center;
     background-image: url(https://quezzle.se/img/header-bg.jpg);
+    background-repeat: no-repeat;
     z-index: 3;
 }
 
-p.intro-text{
-    font-size: 20px;
-    font-style: italic;
-    margin-bottom: 25px;
-    width: 80%;
+.navbar-nav .nav-link {
+    color: #fff;
 }
-.btn-xl {
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.2);
+}
+.btn {
     padding: 20px 40px;
-    font-size: 18px;
+    font-size: 14px;
     background-color: rgba(75,26,68,.4);
     font-weight: 700;
-    border-radius: 3px;
+    border-radius: 4px;
     border-color: #fff;
 }
