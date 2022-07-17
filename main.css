@@ -36,7 +36,6 @@ a:hover{
 }
 
 header{
-    /*    background-image: url(https://quezzle.se/img/header-bg.jpg);*/
     background-image: url(Image/header-bg.jpg);
     background-repeat: no-repeat;
         z-index: 3;
@@ -55,4 +54,35 @@ header{
     font-weight: 700;
     border-radius: 4px;
     border-color: #fff;
+}
+
+.section-heading{
+    margin-top:40px;
+    margin-bottom:60px;
+    font-size:40px
+}
+
+.form-control{
+    height : 70px;
+    padding: 20px;
+    font-size:small;
+    border-radius: 5px;
+}
+
+.form-control1{
+    height : 260px;
+    width: 100%;
+    padding: 20px;
+    font-size:small;
+    border-radius: 5px;
+}
+
+.form-control:focus{
+    border-color:#fed136;
+    box-shadow:none
+}
+
+.form-group{
+    margin-bottom : 25px;
+    vertical-align:middle
 }
