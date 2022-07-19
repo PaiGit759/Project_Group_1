@@ -87,3 +87,33 @@ header{
     vertical-align:middle
 }
 
+.btn-primary, .btn-xl, .btn-xs, h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section h2.section-heading {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+.bg-white {
+    color: #333;
+    background-color: #fff;
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
