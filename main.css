@@ -430,6 +430,28 @@ footer span.copyright,footer ul.quicklinks
     }
 }
 
+
+.bottom-buffer,.well{
+    margin-bottom:20px
+}
+
+subheading{
+    margin-top:0px;
+    margin-bottom:10px;
+    text-transform:none;
+    font-size:16px;
+    font-weight:400;
+    line-height:2
+}
+
+p.large {
+    font-size: 16px;
+}
+
+.col-sm-6{
+    width:50%;
+    float:left;
+}
 /*
 
 
