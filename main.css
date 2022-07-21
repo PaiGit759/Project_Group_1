@@ -28,7 +28,7 @@ a:hover{
 }
 
 .style-m2{ 
-    flex-grow: 0;   
+    flex-grow: 0;  
 }
 
 .navbar-brand {
@@ -38,12 +38,10 @@ a:hover{
 header{
     background-image: url(Image/header-bg.jpg);
     background-repeat: no-repeat;
-        z-index: 3;
+    z-index: 3;
     }
 
-.navbar-nav .nav-link {
-    color: #fff;
-}
+
 .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.2);
 }
@@ -176,10 +174,9 @@ section h2 {
     margin-bottom: 60px;
     font-size: 40px;
     font-weight: 700;
-    text-shadow: 0 0 10px #3b1339;
 }
 
-h4 { 
+h3 { 
     font-size: 18px;
     text-shadow:0 0 10px #3b1339 ;
     margin: 15px 0;
